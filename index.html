@@ -6,7 +6,7 @@
 	<meta name="theme-color" content="#fff8f5">
 	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E❤️%3C/text%3E%3C/svg%3E">
 	<title>Artur & Gicely</title>
-	*<style>
+	<style>
 		:root {
 			color-scheme: light;
 			--paper: #fce6ec;
@@ -23,14 +23,23 @@
 		body {
 			min-height: 100vh;
 			margin: 0;
-			display: grid;
-			place-items: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 16px;
 			padding: 48px 20px;
 			color: var(--ink);
 			background-color: var(--paper);
 			background-image: radial-gradient(#e9d8d1 0.7px, transparent 0.7px);
 			background-size: 18px 18px;
 			font-family: Georgia, 'Times New Roman', serif;
+		}
+
+		.site-footer {
+			color: var(--rose-dark);
+			font: 0.82rem/1.5 Arial, sans-serif;
+			text-align: center;
 		}
 
 		main {
@@ -103,12 +112,14 @@
 		<p class="eyebrow">Com todo o meu amor</p>
 		<h1>Eu não fico um segundo sem pensar em você</h1>
 		<p class="message">
-			Obrigado por nunca deixar de estar ao meu lado, mesmo quando eu não mereço. Eu quero viver pra sempre com sua companhia, sua amizade, e acima de tudo NOS AMANDO CADA DIA MAIS. Eu te amo minha princesinha!
+			Obrigado por nunca deixar de estar ao meu lado, mesmo quando está tudo difícil. Eu quero viver pra sempre com sua companhia, sua amizade, e acima de tudo seu amor. EU TE AMO MINHA PRINCESINHA!
 		</p>
 
 		<figure class="photo-frame">
 			<img src="tutugigi.jpeg" alt="Uma foto de vocês dois">
 		</figure>
 	</main>
+	<footer class="site-footer">AMOR ETERNO DA FELICIDADE</footer>
+
 </body>
 </html>
